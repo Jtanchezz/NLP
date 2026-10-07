@@ -1,3 +1,2 @@
 torch==2.14.1
 nltk==3.10.3
-# gensim: no se utilizó en las secciones 1-4 y no está instalado en .venv.
