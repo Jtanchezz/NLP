@@ -4,4 +4,6 @@
 __pycache__/
 .ipynb_checkpoints/
 Lab8/.nltk_data/
-Lab9/embeddings-m-model.vec
+
+# Modelos SUC preentrenados y sus archivos comprimidos (mantener locales).
+Lab9/embeddings-*-model.*
