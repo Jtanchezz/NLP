@@ -1,0 +1,69 @@
+{
+  "mejor_variante": "base",
+  "seleccion_provisional": false,
+  "configuracion_noticias": {
+    "vector_size": 100,
+    "window": 5,
+    "min_count": 2,
+    "sg": 1,
+    "negative": 5,
+    "epochs": 10,
+    "sample": 0.001,
+    "seed": 42,
+    "workers": 1,
+    "hs": 0,
+    "shrink_windows": true,
+    "hashfxn": "hash_estable"
+  },
+  "configuracion_quijote": {
+    "vector_size": 100,
+    "window": 5,
+    "min_count": 2,
+    "sg": 1,
+    "negative": 5,
+    "epochs": 10,
+    "sample": 0.001,
+    "seed": 42,
+    "workers": 1,
+    "hs": 0,
+    "shrink_windows": true,
+    "hashfxn": "hash_estable"
+  },
+  "configuracion_fasttext": {
+    "vector_size": 100,
+    "window": 5,
+    "min_count": 2,
+    "sg": 1,
+    "negative": 5,
+    "epochs": 10,
+    "sample": 0.001,
+    "seed": 42,
+    "workers": 1,
+    "hs": 0,
+    "shrink_windows": true,
+    "hashfxn": "hash_estable",
+    "min_n": 3,
+    "max_n": 6,
+    "bucket": 200000
+  },
+  "palabras_control": [
+    "banco",
+    "gobierno",
+    "empresa",
+    "mercado",
+    "tecnología",
+    "sostenibilidad"
+  ],
+  "palabras_comparacion_dominios": [
+    "señor",
+    "dinero",
+    "casa",
+    "palabra",
+    "trabajo"
+  ],
+  "consultas_oov": {
+    "Error de dedo": "gobiernno",
+    "Conjugación poco común": "gobernásemos",
+    "Palabra inventada": "criptoempresa"
+  }
+}
