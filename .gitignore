@@ -7,3 +7,7 @@ Lab8/.nltk_data/
 
 # Modelos SUC preentrenados y sus archivos comprimidos (mantener locales).
 Lab9/embeddings-*-model.*
+
+# Vectores propios y archivos auxiliares de gensim (mantener locales).
+Lab9/*.kv
+Lab9/*.kv.*
