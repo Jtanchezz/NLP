@@ -4,3 +4,4 @@
 __pycache__/
 .ipynb_checkpoints/
 Lab8/.nltk_data/
+Lab9/embeddings-m-model.vec
